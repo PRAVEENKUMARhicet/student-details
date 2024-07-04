@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>studentform</form></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>Student form</h1>
+        <div class="rollNo">
+            <label for="regno">Student RollNo:</label>
+            <input id="regno" type="number" placeholder="RollNo" required>
+        </div>
+        <div class="sname">
+            <label for="name">Student Name:</label>
+            <input id="name" type="text" placeholder="Student Name:" required>
+        </div>
+        <div class="sdept">
+            <label for="depts">Student Department:</label>
+                <select name="depts" id="drop">
+                    <option value="non">none</option>
+                    <option value="ece">ECE</option>
+                    <option value="cse">CSE</option>
+                    <option value="aiml">aiml</option>
+                    <option value="it">IT</option>
+                </select>
+        </div>
+        <div class="sslcmark">
+            <label for="sslc">Student 10th Mark:</label>
+            <input id="sslc" type="number" placeholder="Mark">
+        </div>
+        <div class="hsc">
+            <label for="+2">Student 12th Mark:</label>
+            <input id="+2" type="number" placeholder="Mark">
+        </div>
+        <div class="deg">
+            <label for="degree">Degree Percentage:</label>
+            <input id="degree" type="number" placeholder="Mark%">
+        </div>
+        <div class="btn">
+            <button class="submit">submit</button>
+            <button class="cancel">cancel</button>
+        </div>
+    </form>
+</body>
+</html>
